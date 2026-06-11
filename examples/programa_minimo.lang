@@ -1,0 +1,16 @@
+fn main() -> int {
+  int x;
+  x = 10;
+
+  if (x > 0) {
+    x = x + 1;
+  } else {
+    x = 0;
+  }
+
+  while (x < 20) {
+    x = x + 2;
+  }
+
+  return x;
+}
