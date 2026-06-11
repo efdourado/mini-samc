@@ -58,4 +58,3 @@ PYTHONPATH=src python3 -m unittest discover -s tests
 - `docs/gramatica.md`: gramatica da linguagem.
 - `docs/arquitetura.md`: pipeline e modulos.
 - `docs/geracao-sam.md`: convencoes de geracao SaM.
-- `docs/plano-10.md`: plano final de entrega.

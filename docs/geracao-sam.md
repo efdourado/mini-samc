@@ -35,9 +35,12 @@ linguagem.
 | Conversao `int` para `float` | `ITOF` |
 | Comparacoes inteiras | `GREATER`, `LESS`, `EQUAL`, `NOT` |
 | Comparacoes reais | `CMPF` + comparacao auxiliar |
-| `&&`, `||`, `!` | `AND`, `OR`, `NOT` |
+| `&&`, <code>&#124;&#124;</code>, `!` | `AND`, `OR`, `NOT` |
 | Controle de fluxo | `JUMP`, `JUMPC`, labels |
 | Chamada de rotina | `ADDSP`, argumentos, `LINK`, `JSR`, `UNLINK` |
+
+Os operadores logicos `&&` e <code>&#124;&#124;</code> sao emitidos como `AND` e
+`OR`; portanto, ambos os operandos sao avaliados antes da instrucao logica.
 
 ## Referencias
 

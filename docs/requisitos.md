@@ -16,8 +16,8 @@ Construir um tradutor de uma linguagem de alto nivel para assembly SaM.
 | Constantes numericas | Implementado |
 | Atribuicao | Implementado |
 | Operadores aritmeticos `+`, `-`, `*`, `/`, `%` | Implementado |
-| Operadores relacionais `==`, `!=`, `>`, `<`, `>=`, `<=` | Implementado |
-| Operadores logicos `&&`, `||`, `!` | Implementado |
+| Operadores relacionais `==` (igualdade), `!=` (diferenca), `>`, `<`, `>=`, `<=` | Implementado |
+| Operadores logicos `&&` (E), <code>&#124;&#124;</code> (Ou), `!` (Nao) | Implementado |
 | Decisao `if/else` | Implementado |
 | Repeticao `while` | Implementado |
 | Lexer e parser sem geradores | Implementado |

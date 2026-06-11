@@ -1,7 +1,7 @@
-# Gramatica Inicial
+# Gramatica
 
-Esta e a primeira versao da gramatica da linguagem. Ela foi desenhada para ser
-simples de analisar com parser descendente recursivo manual.
+Esta e a gramatica da linguagem implementada. Ela foi desenhada para ser simples
+de analisar com parser descendente recursivo manual.
 
 ## Exemplo
 
@@ -103,7 +103,7 @@ Da maior para a menor:
 | Relacional | `>`, `>=`, `<`, `<=` | esquerda |
 | Igualdade | `==`, `!=` | esquerda |
 | E logico | `&&` | esquerda |
-| Ou logico | `||` | esquerda |
+| Ou logico | <code>&#124;&#124;</code> | esquerda |
 
 ## Comentarios
 
@@ -116,7 +116,7 @@ Da maior para a menor:
 
 - `bool` entra como opcional estrategico, pois deixa a analise semantica das
   expressoes logicas mais clara.
-- `void` e usado para procedimentos e funcoes sem retorno quando decidirmos
-  unificar a sintaxe.
-- Vetores e strings ficam fora desta primeira gramatica para manter o nucleo
+- `void` e usado para funcoes sem retorno; procedimentos usam a palavra reservada
+  `proc`.
+- Vetores e strings ficam fora do escopo implementado para manter o nucleo
   estavel.
